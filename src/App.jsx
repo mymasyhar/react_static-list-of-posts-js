@@ -3,7 +3,6 @@ import './App.scss';
 import postsFromServer from './api/posts.json';
 import commentsFromServer from './api/comments.json';
 import usersFromServer from './api/users.json';
-import { PostInfo } from './components/PostInfo/PostInfo';
 import { PostList } from './components/PostList/PostList';
 
 function getUsersById(userId) {
